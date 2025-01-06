@@ -1,0 +1,71 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #277faa;
+    /*! box-sizing: border-box; */
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .contenedor {
+    height: 145px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #39c8f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 1s;
+  }
+  
+  .contenedor.expand{
+    height: 450px;
+  }
+
+  h1 {
+    color: #333333;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #deleteButton{
+    background-color: crimson;
+  }
+  
+  #climeData {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .message-container{
+    background-color: white;
+    padding: 0.5rem;
+    display: inline-block;
+    text-align: center;
+    font-size: larger;
+    border-radius: 10px;
+    width: fit-content;
+    opacity: 0;
+    transition: 1s;
+  }
+  
+  .span-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
